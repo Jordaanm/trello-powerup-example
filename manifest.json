@@ -1,0 +1,29 @@
+{
+  "name": "Powerup Example",
+  "description": "A simple Trello Powerup example",
+  "details": "A simple Trello Powerup example, to test a few ideas out",
+  "icon": {
+    "url": "./images/logo.png"
+  },
+  "author": "Jordaan Mylonas",
+  "capabilities": [
+    "attachment-sections",
+    "attachment-thumbnail",
+    "board-buttons",
+    "callback",
+    "card-badges",
+    "card-buttons",
+    "card-detail-badges",
+    "card-from-url",
+    "format-url",
+    "show-settings"
+  ],
+  "connectors": {
+    "iframe": {
+      "url": "./html/index.html"
+    }
+  },
+  "recommend": {
+    "urls": []
+  }
+}
